@@ -1102,7 +1102,12 @@ SELECTED PRODUCT PAGE
   /* Cart */
 
   .cart__item {
-    justify-content: flex-start;
+    padding: 12px 20px;
+    justify-content: space-between;
+  }
+
+  .cart__item__left {
+    display: none;
   }
 
   /* 
