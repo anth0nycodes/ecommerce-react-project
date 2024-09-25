@@ -1136,18 +1136,3 @@ SELECTED PRODUCT PAGE
     width: 100%;
   }
 }
-
-@media (max-width: 390px) {
-  /* CART */
-  .cart__item__title {
-    font-size: 14px;
-  }
-
-  .cart__item__price {
-    font-size: 20px;
-  }
-
-  .cart__item__quantity__btn {
-    padding: 3px 7px;
-  }
-}
