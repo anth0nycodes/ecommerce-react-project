@@ -10,10 +10,14 @@ const Menu = ({ menuOpen, setMenuOpen, setCartOpen }) => {
         <FontAwesomeIcon icon={faTimes} />
       </button>
       <div className="menu__links">
-        <Link to="/" className="menu__link">
+        <Link to="/" className="menu__link" onClick={() => setMenuOpen(false)}>
           Home
         </Link>
-        <Link to="/products" className="menu__link">
+        <Link
+          to="/products"
+          className="menu__link"
+          onClick={() => setMenuOpen(false)}
+        >
           Products
         </Link>
         <button
