@@ -43,7 +43,7 @@ const App = () => {
   };
 
   const removeProductFromCart = (product) => {
-    setCart((prevCart) => prevCart.map((item) => item.id !== product.id));
+    setCart((prevCart) => prevCart.filter((item) => item.id !== product.id));
   };
 
   const cartLength = () => {
