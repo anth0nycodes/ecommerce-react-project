@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container">
         <div className="row header__row">
           <h1 className="header__title">
-            Welcome to <span className="color-primary">Samurai Store</span>
+            Welcome to <span className="color-primary">RAOUF</span>
           </h1>
           <div className="header__grid-container">
             <Link to="/products" className="header__grid">
