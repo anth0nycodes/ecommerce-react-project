@@ -21,7 +21,7 @@ const Navbar = ({ setCartOpen, setMenuOpen }) => {
           <button className="nav__cart" onClick={() => setCartOpen(true)}>
             <FontAwesomeIcon
               icon={faCartShopping}
-              className="nav__cart__icon"
+              className="nav__cart__icon fa"
             />
             {cartLength() > 0 && (
               <span className="cart__length">{cartLength()}</span>
@@ -29,7 +29,7 @@ const Navbar = ({ setCartOpen, setMenuOpen }) => {
           </button>
 
           <button className="nav__menu" onClick={() => setMenuOpen(true)}>
-            <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon icon={faBars} className="fa"/>
           </button>
         </div>
       </div>

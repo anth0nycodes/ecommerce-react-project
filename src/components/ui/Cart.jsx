@@ -24,7 +24,7 @@ const Cart = ({ cartOpen, setCartOpen }) => {
             className="cart__header__close"
             onClick={() => setCartOpen(false)}
           >
-            <FontAwesomeIcon icon={faTimes} />
+            <FontAwesomeIcon icon={faTimes} className="fa"/>
           </button>
         </div>
         <div className="cart__items">
@@ -63,7 +63,7 @@ const Cart = ({ cartOpen, setCartOpen }) => {
                 </div>
                 <FontAwesomeIcon
                   icon={faTimes}
-                  className="cart__item__remove"
+                  className="cart__item__remove fa"
                   onClick={() => {
                     removeProductFromCart(item);
                   }}

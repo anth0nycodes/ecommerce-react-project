@@ -5,7 +5,7 @@ import React from "react";
 const SuccessPopup = ({ successOpen }) => {
   return (
     <div className={`success ${successOpen && "success-open"}`}>
-      <FontAwesomeIcon icon={faCircleCheck} />
+      <FontAwesomeIcon icon={faCircleCheck} className="fa"/>
       <span>Item added to cart</span>
     </div>
   );
