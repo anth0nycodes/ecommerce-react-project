@@ -20,7 +20,7 @@ const Banner1 = () => {
                 Shop Now
               </Link>
             </div>
-            <img src={Banner1Img} alt="" className="banner__img" />
+            <img src={Banner1Img} alt="image of household shelves with items" className="banner__img" />
           </div>
         </div>
       </div>

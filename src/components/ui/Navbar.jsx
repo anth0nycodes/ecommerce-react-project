@@ -12,7 +12,7 @@ const Navbar = ({ setCartOpen, setMenuOpen }) => {
     <nav className="nav">
       <div className="nav__container">
         <Link to="/">
-          <img src={NavLogo} alt="" className="nav__logo" />
+          <img src={NavLogo} alt="website logo" className="nav__logo" />
         </Link>
         <div className="nav__links">
           <Link to="/products" className="nav__link">

@@ -16,19 +16,19 @@ const Header = () => {
           <div className="header__grid-container">
             <Link to="/products" className="header__grid">
               <h2 className="header__grid__title">Live Comfortably</h2>
-              <img src={HomeImage1} alt="" className="header__grid__img" />
+              <img src={HomeImage1} alt="image of a room within a home, trailing towards home appliances" className="header__grid__img" />
             </Link>
             <Link to="/products" className="header__grid">
               <h2 className="header__grid__title">Skincare</h2>
-              <img src={HomeImage2} alt="" className="header__grid__img" />
+              <img src={HomeImage2} alt="image of a skincare product" className="header__grid__img" />
             </Link>
             <Link to="/products" className="header__grid">
               <h2 className="header__grid__title">Kitchen</h2>
-              <img src={HomeImage3} alt="" className="header__grid__img" />
+              <img src={HomeImage3} alt="image of a kitchen" className="header__grid__img" />
             </Link>
             <Link to="/products" className="header__grid">
               <h2 className="header__grid__title">Electronics</h2>
-              <img src={HomeImage4} alt="" className="header__grid__img" />
+              <img src={HomeImage4} alt="image of a table that has a lot of technological appliances" className="header__grid__img" />
             </Link>
           </div>
         </div>

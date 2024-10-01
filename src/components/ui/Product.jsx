@@ -6,7 +6,7 @@ const Product = ({ product }) => {
     <Link to={`/products/${product.id}`} className="product">
       <img
         src={`https://ecommerce-samurai.up.railway.app/${product.images[0]}`}
-        alt=""
+        alt={`Picture of the following product: ${product.name}`}
         className="product__img"
       />
       <div className="product__details">

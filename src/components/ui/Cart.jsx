@@ -34,7 +34,7 @@ const Cart = ({ cartOpen, setCartOpen }) => {
                 <div className="cart__item__left">
                   <img
                     src={`https://ecommerce-samurai.up.railway.app/${item.images[0]}`}
-                    alt=""
+                    alt="selected product image"
                     className="cart__item__img"
                   />
                 </div>
@@ -72,7 +72,7 @@ const Cart = ({ cartOpen, setCartOpen }) => {
             ))
           ) : (
             <div className="cart__empty">
-              <img src={EmptyCartImage} alt="" className="cart__empty__img" />
+              <img src={EmptyCartImage} alt="Graphic of empty cart" className="cart__empty__img" />
               <span className="cart__empty__text">Your cart is empty!</span>
               <button
                 className="cart__empty__btn"
